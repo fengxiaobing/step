@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black_effective">#2a2a2a</color>
+    <color name="white">#ffffff</color>
+    <color name="a3398d3">#3398d3</color>
+    <color name="gray">#7e7e7e</color>
+    <color name="top_back">#252D47</color>
+    <color name="yellow">#fff44f</color>
+    <color name="shadow">#d0d8dc</color>
+    <color name="splitline">#ebebeb</color>
+    <color name="item_purple">#f2d7ff</color>
+    <color name="bg_button">#925ed2</color>
+    <color name="ed_bg_purple">#AD5ED2</color>
+    <color name="background">#FFFFFF</color>
+
+    <color name="color1">#F0F0F0</color>
+    <color name="color2">#FFFFFF</color>
+    <color name="color3">#B0B0B0</color>
+    <color name="color4">#666666</color>
+    <color name="color5">#57C5E8</color>
+
+    <color name="split_line">#11112233</color>
+    <color name="text1">#333333</color>
+    <color name="text2">#333333</color>
+</resources>
