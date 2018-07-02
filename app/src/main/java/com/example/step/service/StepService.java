@@ -357,7 +357,8 @@ public class StepService extends Service implements SensorEventListener {
      * 保存当天的数据到数据库中，并去刷新通知栏
      */
     private void saveStepData() {
-
+        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");//设置日期格式
+        CURRENT_DATE= df.format(new Date());// new Date()为获取当前系统时间
 
         //查询数据库中的数据
 
@@ -367,6 +368,7 @@ public class StepService extends Service implements SensorEventListener {
 
         //为空则说明还没有该天的数据，有则说明已经开始当天的计步了
         if (entity == null) {
+            CURRENT_STEP = 0;
             //没有则新建一条数据
             entity = new StepEntity();
             entity.setId(SystemClock.currentThreadTimeMillis());
